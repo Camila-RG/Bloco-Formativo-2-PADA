@@ -13,7 +13,7 @@ int main() {
     vector<vector<int>> grafo(n, vector<int>(n, infinito));
 
     // abre o arquivo com o grafo
-    ifstream arquivo("teste");
+    ifstream arquivo("grafo");
     if (!arquivo.is_open()) {
         cout << "nao deu pra abrir o arquivo =( \n";
         return 1;
